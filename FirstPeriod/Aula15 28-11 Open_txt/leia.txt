@@ -1,0 +1,18 @@
+# Aula 15 - 28-11-2019
+# Manipulação de arquivos e texto
+
+# type io = variavel para entrada de saida de dados
+
+# "r"- Ler - valor padrão. Abre um arquivo para leitura, erro se o arquivo não existir
+# "a" - Anexar - abre um arquivo para anexar, cria o arquivo se ele não existir
+# "w" - Escrever - Abre um arquivo para gravação, cria o arquivo se ele não existir
+# "x" - Criar - Cria o arquivo especificado, retorna um erro se o arquivo existir
+
+# Além disso, você pode especificar se o arquivo deve ser tratado no modo binário ou de texto
+
+# "t"- Texto - Valor padrão. Modo de texto
+# "b" - Binário - Modo binário (por exemplo, imagens)
+
+# arquivo = open('aula15.txt','a')
+# arquivo.write('Vltoline Turismo\n')
+# arquivo.close()

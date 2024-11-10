@@ -1,0 +1,17 @@
+-- Como usar:
+
+-- cmd pesquisar 'where python'
+-- Usar diretorio User/appdata
+-- Acessar no terminal o local desejado
+-- Inserir o diretorio 'python.exe' virtualenv --python=" " ENV
+
+-- Proway 
+virtualenv --python="C:\Users\900159\AppData\Local\Programs\Python\Python37\python.exe" ENV
+
+-- Pessoal User Renan
+virtualenv --python="C:\Users\Usuario\AppData\Local\Programs\Python\Python37\python.exe" ENV
+
+-- Comandos seguintes:
+
+-- cd ENV
+-- cd Scripts\activate

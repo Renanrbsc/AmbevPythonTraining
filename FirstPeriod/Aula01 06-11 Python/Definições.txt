@@ -1,0 +1,12 @@
+# Projeto Padawan HBSIS - Curso Profissional HBSIS - Python, API
+
+
+
+# WEB
+
+Navegador utiliza 3 linguagens: javascript, css, html
+
+Framework Flask - Retorna arquivos em html
+
+
+React e Angular frameworks para facilitar as linguagem css, javascript, html

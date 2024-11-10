@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../static/layout.css">
+</head>
+<body>
+    <div class="retangulo">
+        <br>
+        <h1><div class="center"><label>{{titulo_app}} - Alteraçâo concluida</label></div></h1>
+        <br>
+        <h1><div class="center"><label> Dados anteriores há Alteração</label></div></h1>
+        <h3>
+        <table id = 'tabela-listas'>
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+                <th>Genero</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Endereco_ID</th>
+                <th>Logradouro</th>
+                <th>Numero</th>
+                <th>Sigla</th>
+                <th>Cidade</th>
+                <th>Regiao</th>
+                <th>Cep</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ dados1[0] }}</td>
+                <td>{{ dados1[1] }}</td>
+                <td>{{ dados1[2] }}</td>
+                <td>{{ dados1[3] }}</td>
+                <td>{{ dados1[4] }}</td>
+                <td>{{ dados1[5] }}</td>
+                <td>{{ dados1[6] }}</td>
+                <td>{{ dados1[7] if dados1[7] else '' }}</td>
+                <td>{{ dados1[9] if dados1[9] else '' }}</td>
+                <td>{{ dados1[10] if dados1[10] else '' }}</td>
+                <td>{{ dados1[11] if dados1[11] else '' }}</td>
+                <td>{{ dados1[12] if dados1[12] else '' }}</td>
+                <td>{{ dados1[13] if dados1[13] else '' }}</td>
+                <td>{{ dados1[14] if dados1[14] else '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+    </h3>
+    <br>
+    <br>
+    <h1><div class="center"><label> Dados anteriores há Alteração</label></div></h1>
+    <h3>
+    <table id = 'tabela-listas'>
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Idade</th>
+                <th>Genero</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Endereco_ID</th>
+                <th>Logradouro</th>
+                <th>Numero</th>
+                <th>Sigla</th>
+                <th>Cidade</th>
+                <th>Regiao</th>
+                <th>Cep</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ dados[0] }}</td>
+                <td>{{ dados[1] }}</td>
+                <td>{{ dados[2] }}</td>
+                <td>{{ dados[3] }}</td>
+                <td>{{ dados[4] }}</td>
+                <td>{{ dados[5] }}</td>
+                <td>{{ dados[6] }}</td>
+                <td>{{ dados[7] if dados[7] else '' }}</td>
+                <td>{{ dados[9] if dados[9] else '' }}</td>
+                <td>{{ dados[10] if dados[10] else '' }}</td>
+                <td>{{ dados[11] if dados[11] else '' }}</td>
+                <td>{{ dados[12] if dados[12] else '' }}</td>
+                <td>{{ dados[13] if dados[13] else '' }}</td>
+                <td>{{ dados[14] if dados[14] else '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+    </h3>
+    <br>
+    <h2><a class = 'center-link' href="/">Voltar a tela inicial</a> <br/></h2>
+    <br>
+</body>
+</html>

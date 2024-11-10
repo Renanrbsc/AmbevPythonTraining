@@ -1,0 +1,39 @@
+<!-- <p>   Abre Comentario
+</p>-->    Fecha comentario
+
+<br>       Pula linha - Quebra de linha
+<p>        Paragrafo
+<h1> Insere Texto </h1>         Tamanho de fonte
+<h2> Insere Texto </h2>         Tamanho de fonte
+<h5> Insere Texto </h5>         Tamanho de fonte
+<h10> Insere Texto </h10>       Tamanho de fonte
+
+
+<html>          Inicio do codigo
+  <head>        elemento que providencia informações gerais (metadados)
+    <title> INSERE TITULO </title>      Tags para inserir titulo
+  </head>       Fecha elemento geral
+  <body>        Abrir corpo do projeto
+
+  </body>       Fecha corpo do projeto
+</html>         Final do codigo
+
+
+<label for=""> escreva algo </label>         Tags para campo de texto
+<input type="text"/>          Tags para inserir valores 
+<form> </form>          tags para formulario
+
+
+
+        variavel criada em python deve ser chamada no parametro usando um novo nome para o codigo em html
+no parametro fica nome=variavel
+para chama-la no html deve usar as chaves {{variavel}}
+
+
+texto em movimento
+
+<h1>Bem Vindo ao app da Calculadora</h1>
+    <marquee behavior="alternate" width="400" eigth="20" scrollamount="5"
+    direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+<h1>Seja Bem vindo ao mundo real! que decepção</h1></marquee>
+    

@@ -1,0 +1,79 @@
+1  - Login -> 10
+2  - Cadastro/Edicao - Pessoa -> 6
+3  - Chat -> 8
+4  - Post -> 1
+5  - Amigos -  Melhores -> 3
+6  - Grupos (Comunidades do Orkut) -> 12
+7  - Comentarios -> 2
+8  - Eventos -> 9
+9  - Reações = (Feedback) -> 13
+10 - Notificações -> 7
+11 - Perfis -> 11
+12 - Albuns -> 4
+13 - Privacidade -> 5
+
+Grupo1 -
+Abreu
+Danieli
+Pedro
+
+Grupo 2 -
+Thomas
+Suzuki
+Parasky
+
+Grupo 3 -
+Victor,
+Vasconcelos,
+Talissa
+
+Grupo 4
+George,
+William,
+Guilherme
+
+Grupo 5
+Renan,
+Bruna,
+Vitor
+
+Grupo 6
+Marcela
+Correia
+Keunan
+
+Grupo 7 -
+Natan,
+Josue,
+Marciano
+
+Grupo 8 -
+Voltolini,
+Pablo,
+Luz
+
+Grupo 9 -
+Aviz,
+Felipe,
+Ruan
+
+Grupo 10 -
+Daniel
+Mirella
+Juninho
+
+Grupo 11
+Draetta,
+Thalyta,
+Antônio
+
+Grupo 12
+João,
+Nicole,
+Teti
+
+Grupo 13
+Diego,
+Lucas
+Vinicius
+
